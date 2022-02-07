@@ -1,14 +1,14 @@
 defmodule UUID.Mixfile do
   use Mix.Project
 
-  @version "1.2.1"
+  @version "1.2.3"
 
   def project do
     [
       app: :elixir_uuid,
       name: "UUID",
       version: @version,
-      elixir: "~> 1.7",
+      elixir: "~> 1.13",
       docs: [extras: ["README.md", "CHANGELOG.md"], main: "readme", source_ref: "v#{@version}"],
       source_url: "https://github.com/zyro/elixir-uuid",
       description: description(),
